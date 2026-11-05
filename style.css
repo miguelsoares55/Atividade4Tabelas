@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #434343;
+  color: #ffffff;
+  margin: 0;
+  padding: 24px 16px 40px;
+}
+ 
+.conteudo {
+  max-width: 960px;
+  margin: 0 auto;
+}
+ 
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.8rem;
+  color: #f26522;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  margin: 0 0 32px;
+  padding: 14px 24px;
+}
+ 
+section {
+  margin-bottom: 44px;
+}
+ 
+.tabela-wrapper {
+  overflow-x: auto;
+}
+ 
+caption {
+  caption-side: top;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+ 
+.rotina {
+  width: 100%;
+  min-width: 680px;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+ 
+.rotina th,
+.rotina td {
+  border: 2px solid #f26522;
+  padding: 12px 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+ 
+.rotina col.col-dia {
+  width: 16%;
+}
+ 
+.rotina thead th {
+  background-color: #f26522;
+  color: #ffffff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+ 
+.rotina tbody th {
+  background-color: #f26522;
+  color: #ffffff;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 14px;
+}
+ 
+.rotina tbody td {
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 0.9rem;
+}
+ 
+.rotina tbody td.destaque {
+  color: #f26522;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+ 
+.rotina tbody td.foco {
+  color: #f26522;
+  font-weight: bold;
+}
+ 
+.formacao {
+  width: 100%;
+  min-width: 680px;
+  border-collapse: separate;
+  border-spacing: 4px;
+  background-color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+ 
+.formacao th,
+.formacao td {
+  border: 2px solid #7a3412;
+  padding: 12px 10px;
+  vertical-align: middle;
+}
+ 
+.formacao thead th {
+  background-color: #fde0cf;
+  color: #7a3412;
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+ 
+.formacao tbody th {
+  background-color: #ffffff;
+  color: #7a3412;
+  text-align: center;
+  font-size: 1.15rem;
+}
+ 
+.formacao tbody td {
+  background-color: #ffffff;
+  color: #222222;
+  text-align: left;
+  font-size: 1.1rem;
+}
+ 
+.formacao tbody td:last-child {
+  text-align: center;
+  font-weight: bold;
+}
+ 
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+}
