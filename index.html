@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade - HTML e CSS: Tabela</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <div class="conteudo">
+ 
+    <h1>Atividade - HTML e CSS: Tabela</h1>
+ 
+    <section>
+      <div class="tabela-wrapper rotina-wrapper">
+        <table class="rotina">
+          <caption>Tabela 1 - Minha Rotina Semanal</caption>
+          <colgroup>
+            <col class="col-dia">
+            <col span="4">
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col">DIA</th>
+              <th scope="col">MANHÃ</th>
+              <th scope="col">TARDE</th>
+              <th scope="col">NOITE</th>
+              <th scope="col">FOCO DO DIA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">DOMINGO</th>
+              <td>Dormir até mais tarde</td>
+              <td>Almoço em família</td>
+              <td>Organizar a semana</td>
+              <td class="foco">Descanso</td>
+            </tr>
+            <tr>
+              <th scope="row">SEGUNDA</th>
+              <td rowspan="5" class="destaque">Aula na escola</td>
+              <td>Tarefas da escola</td>
+              <td>Estudar</td>
+              <td class="foco">Estudos</td>
+            </tr>
+            <tr>
+              <th scope="row">TERÇA</th>
+              <td>Curso de inglês</td>
+              <td>Descansar</td>
+              <td class="foco">Idiomas</td>
+            </tr>
+            <tr>
+              <th scope="row">QUARTA</th>
+              <td>Tarefas da escola</td>
+              <td>Estudar</td>
+              <td class="foco">Estudos</td>
+            </tr>
+            <tr>
+              <th scope="row">QUINTA</th>
+              <td>Curso de inglês</td>
+              <td>Séries</td>
+              <td class="foco">Idiomas</td>
+            </tr>
+            <tr>
+              <th scope="row">SEXTA</th>
+              <td>Projeto de HTML e CSS</td>
+              <td>Jogar com amigos</td>
+              <td class="foco">Projetos</td>
+            </tr>
+            <tr>
+              <th scope="row">SÁBADO</th>
+              <td>Academia</td>
+              <td colspan="2" class="destaque">Passeio com os amigos</td>
+              <td class="foco">Lazer</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+ 
+    <section>
+      <div class="tabela-wrapper">
+        <table class="formacao">
+          <caption>Tabela 2 - Formação dos Estudantes</caption>
+          <thead>
+            <tr>
+              <th rowspan="2" scope="col">Estudante</th>
+              <th colspan="3" scope="colgroup">Formação</th>
+              <th rowspan="2" scope="col">Ano de Conclusão</th>
+            </tr>
+            <tr>
+              <th scope="col">Curso Técnico</th>
+              <th scope="col">Graduação</th>
+              <th scope="col">Pós-graduação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Lucas</th>
+              <td>Informática</td>
+              <td>Sistemas de Informação</td>
+              <td>Segurança da Informação</td>
+              <td>2024</td>
+            </tr>
+            <tr>
+              <th scope="row">Marina</th>
+              <td>Design</td>
+              <td>Design Gráfico</td>
+              <td>Marketing Digital</td>
+              <td>2023</td>
+            </tr>
+            <tr>
+              <th scope="row">Camila</th>
+              <td>Administração</td>
+              <td>Análise e Desenvolvimento de Sistemas</td>
+              <td>Ciência de Dados</td>
+              <td>2022</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+ 
+  </div>
+ 
+</body>
+</html>
+ 
